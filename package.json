@@ -6,6 +6,7 @@
   "directories": {
     "test": "test"
   },
+  "type": "module",
   "scripts": {
     "test": "tap \"test/**/*.test.js\"",
     "start": "fastify start -l info app.js",

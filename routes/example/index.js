@@ -1,7 +1,8 @@
-'use strict'
+"use strict";
+import fs from "fs";
 
-module.exports = async function (fastify, opts) {
-  fastify.get('/', async function (request, reply) {
-    return 'this is an example'
-  })
+export default async function (fastify, opts) {
+  fastify.get("/", async function (request, reply) {
+    return "this is an example";
+  });
 }
